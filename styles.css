@@ -1,0 +1,90 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styling */
+body {
+	font-family: 'Inconsolata', monospace;
+	background-color: #011627;
+	background-image: url("data:image/svg+xml,%3Csvg width='12' height='24' viewBox='0 0 12 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23182b3a' fill-opacity='0.29'%3E%3Cpath d='M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	color: #E71D36;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+  font-size:4em;
+  text-align:left;
+  height:100px;
+  width:600px;
+  display:block;
+  color:white;
+	margin:auto;
+}
+.console-underscore {
+	background-color: #FDFFFC;
+	height: 0.75em;
+	width: 0.35em;
+	display:inline-block;
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 7px;
+}
+
+.about {
+	font-size: 2em;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
+}
+
+.intro {
+	font-size: 1.8em;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 40px;
+	width: 600px;
+
+}
