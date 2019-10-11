@@ -14,7 +14,7 @@ function consoleText(words, id, colors) {
   window.setInterval(function() {
       target.innerHTML = ">  " + words[0].substring(0, letterCount)
       letterCount += x;
-  }, 150)
+  }, 120)
   window.setInterval(function() {
     if (visible === true) {
       con.className = 'console-underscore hidden'
@@ -27,5 +27,9 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 
-
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
