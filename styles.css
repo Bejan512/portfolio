@@ -86,7 +86,7 @@ body {
 }
 
 .intro {
-	font-size: 1.8em;
+	font-size: 2em;
 	margin: auto;
 	margin-top: 200px;
 	margin-bottom: 40px;
@@ -171,7 +171,7 @@ body {
 	padding: 20px;
 	width: 65%;
 	float: right;
-	padding-right: 50px;
+	padding-right: 35px;
 	padding-left: 50px;
 }
 
