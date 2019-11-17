@@ -158,11 +158,16 @@ body {
 	overflow: hidden;
 }
 
+
 .project-image img {
 	max-height: 400px;
 	margin-right: 500px;
 	filter: blur(5px);
 	object-fit: contain;
+}
+
+.dev-image img{
+	padding-right: 700px;
 }
 
 .project-content {
