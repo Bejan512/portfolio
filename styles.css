@@ -236,3 +236,15 @@ body {
 	padding: 10px;
 	margin-left: 20px;
 }
+
+.navbar-item {
+	font-size: 1.3rem;
+}
+
+.right {
+	padding-right: 10px;
+}
+
+.carrier {
+	padding-right: 1000px;
+}
