@@ -96,6 +96,7 @@ body {
 
 .brand-logo {
 	margin-left: 20px;
+	/* font-size: 1.8rem; */
 }
 
 .nav-wrapper {
@@ -238,13 +239,10 @@ body {
 }
 
 .navbar-item {
-	font-size: 1.3rem;
+	font-size: 1.75rem;
 }
 
 .right {
 	padding-right: 10px;
 }
 
-.carrier {
-	padding-right: 1000px;
-}
